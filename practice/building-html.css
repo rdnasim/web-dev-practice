@@ -1,0 +1,10 @@
+@media  screen andd (min-width: 500px) {
+	body{
+		background-color: green;
+	}
+}
+@media  screen andd (min-width: 800px) {
+	body{
+		background-color: blue;
+	}
+}
