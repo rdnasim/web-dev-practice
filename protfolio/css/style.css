@@ -91,3 +91,10 @@
         letter-spacing: 15px ;
     }
     /* End About area */
+
+    /* Start Brand Area */
+
+    .site-main .brand-area{
+        padding: 1rem 10rem;
+        margin-bottom: 4rem;
+    }
