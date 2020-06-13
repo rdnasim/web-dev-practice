@@ -7,3 +7,22 @@ let unnecessaryWords = ["extremely", "literally", "actually"];
 let storyWords = story.split(" ");
 
 console.log("The original story contains " + storyWords + " words\n");
+
+let betterWords = storyWords.filter(word => !unnecessaryWords.includes(word));
+
+console.log('The story contains ' + betterWords.length + ' words after removing unnecessary words\n');
+
+overusedWords.forEach(function(overWord){
+  let overWordCount = 0;
+  betterWords.filter(function (storyWord) {
+    if (overWord === storyWord) {
+      overWordCount++;
+    }
+  });
+  if (overWordCount != 1) {
+    console.log('The word ' + overWord.toLocaleUpperCase() + ' was used ' + overWordCount + ' times\n');
+  }
+  else{
+    console.log('The Word ' + overWord.toUpperCase() + ' was used ' + overWordCount + ' time\n');
+  }
+});
