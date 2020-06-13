@@ -163,7 +163,7 @@ instanceCount.sort(function(a, b) {
 });
 
 /// Log the most used words
-console.log('The Most Used Words. \n'.toUpperCase())
+console.log('The Most Used Words. \n'.toUpperCase());
 for (let i = 0; instanceCount[i][0] > 3; i++) {
-  console.log('The word ' + instanceCount[i][1].toUpperCase() + ' was used ' + instanceCount[i][0] + ' times')
+  console.log('The word ' + instanceCount[i][1].toUpperCase() + ' was used ' + instanceCount[i][0] + ' times');
 }
