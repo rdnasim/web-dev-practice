@@ -41,7 +41,7 @@ let menu= {
             name: courseName,
             price: dishPrice
         };
-        this._course[courseName].push(dishs);
+        this._course[courseName].push(dish);
     },
 
     //Create a method inside the menu object called .getRandomDishFromCourse()
